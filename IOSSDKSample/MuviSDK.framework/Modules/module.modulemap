@@ -1,0 +1,10 @@
+framework module MuviSDK {
+  umbrella header "MuviSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module MuviSDK.Swift {
+    header "MuviSDK-Swift.h"
+}

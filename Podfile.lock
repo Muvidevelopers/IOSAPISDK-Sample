@@ -1,0 +1,37 @@
+PODS:
+  - ASToast (1.0.9)
+  - KFSwiftImageLoader (3.0.0)
+  - MZDownloadManager (3.3)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - ASToast (~> 1.0.4)
+  - KFSwiftImageLoader (~> 3.0)
+  - MZDownloadManager (from `https://github.com/mzeeshanid/MZDownloadManager.git`)
+  - NVActivityIndicatorView
+  - SDWebImage (~> 3.8)
+
+EXTERNAL SOURCES:
+  MZDownloadManager:
+    :git: https://github.com/mzeeshanid/MZDownloadManager.git
+
+CHECKOUT OPTIONS:
+  MZDownloadManager:
+    :commit: 40a41acd51ccb4b7104585b76bb90df06802c4ec
+    :git: https://github.com/mzeeshanid/MZDownloadManager.git
+
+SPEC CHECKSUMS:
+  ASToast: 7b0a104bba38264e2525924a6ab60dde972d0c83
+  KFSwiftImageLoader: c4656d614329480308b190c2b6f15015a4018ffc
+  MZDownloadManager: 38c4ffc37a1116f0e899abb47c6d62f667bca8ad
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 9d6cb3b37c66492323c9bfd9d3decd506e6d6fce
+
+COCOAPODS: 1.3.1

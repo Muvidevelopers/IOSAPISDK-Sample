@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageHeaderView" rowHeight="103" id="jbT-QH-Ek6" customClass="ImageHeaderView" customModule="IOSSDKSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jbT-QH-Ek6" id="vI0-dx-ggo">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drawer-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="LtQ-hn-Gpg">
+                        <rect key="frame" x="0.0" y="0.0" width="319" height="150"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LtQ-hn-Gpg" firstAttribute="leading" secondItem="vI0-dx-ggo" secondAttribute="leading" id="BXZ-v1-zav"/>
+                    <constraint firstItem="LtQ-hn-Gpg" firstAttribute="top" secondItem="vI0-dx-ggo" secondAttribute="top" id="Ke3-4s-qTf"/>
+                    <constraint firstAttribute="trailing" secondItem="LtQ-hn-Gpg" secondAttribute="trailing" id="Lz0-Gc-SZr"/>
+                    <constraint firstAttribute="bottom" secondItem="LtQ-hn-Gpg" secondAttribute="bottom" id="fTP-GN-BJu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="56.5" y="-49"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="drawer-icon.png" width="444" height="420"/>
+    </resources>
+</document>
